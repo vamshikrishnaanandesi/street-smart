@@ -1,0 +1,25 @@
+[ {
+	"name" : "Lasagna",
+	"price" : 250,
+    "images":[{"full":"images/lasagne.jpg"}],
+	"Description":"Lasagne are wide, flat-shaped pasta, and possibly one of the oldest types of pasta.The word 'lasagne', and, in many non-Italian languages, the singular 'lasagna', can also refer to a dish made with several layers of lasagne sheets alternated with sauces and various other ingredients.",
+	"shine": 9,
+ 	"rarity": 6,
+    "color": "#EEE",
+ 	"faces": 12,
+	"canPurchase": true,
+    "reviews": []
+
+            },
+            {
+	"name":"Shawarma",
+	"price":300,
+    "images":[{"full":"images/shawarma.jpg"}],
+	"Description":"Shawarma or Shawurma  is a Levantine meat preparation, where lamb, chicken, turkey, beef, veal, buffalo meat, or mixed meats are placed on a spit (commonly a vertical spit in restaurants), and may be grilled for as long as a day.Shavings are cut off the block of meat for serving, and the remainder of the block of meat is kept heated on the rotating spit. Shawarma can be served on a plate (generally with accompaniments), or as a sandwich or wrap. Shawarma is usually eaten with tabbouleh, fattoush, taboon bread, tomato, and cucumber. Toppings include tahini, hummus, pickled turnips, and amba",
+	"shine": 9,
+ 	"rarity": 6,
+    "color": "#EEE",
+ 	"faces": 12,
+	"canPurchase": true,
+    "reviews": []
+    }]

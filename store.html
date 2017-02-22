@@ -1,0 +1,68 @@
+<!doctype html>
+<html ng-app="store">
+<head>
+<title>Food Junkie</title>
+<meta charset="utf-8"/>	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="scripts/angular.min.js"></script>
+    <script type="text/javascript" src="scripts/ang.js"></script>
+    <script type="text/javascript" src="scripts/products.js"></script>
+</head>
+<body ng-controller="StoreController as store" style="background-color:  #ffffff" >
+     <header>
+			<nav class="navbar navbar-default">
+			
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">AngularJS</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+        <div class="container">
+        <div class="jumbotron" style="background-image:url(http://previews.123rf.com/images/klavapuk/klavapuk1305/klavapuk130500013/20172231-Cooking-background-Stock-Vector-cooking-kitchen-food.jpg) ">
+            <h1 align="center">Food Junkie</h1>
+          <h2 align="center">-It's all gonna be alright-</h2> 
+            <hr style="border: 0;
+                    height: 1px;
+                    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+        </div>
+    <div class="container">
+    <ul class="list-group" > 
+	    <li class="list-group-item" ng-repeat ="product in store.products" style="border: none">
+            <product-title></product-title>
+            <product-images></product-images>
+            <div align="middle">
+                <a href="#" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
+                </a>
+                </div>
+            <product-panel></product-panel>
+        </li>
+    </ul>
+    <div class="row"  align="middle" style="color: #123456">
+        <div class="col-sm-4">
+            <h3 >About Me</h3>
+            <p>dsfadfsdafdaffdsafsdsf</br>
+                <b>dafsdafsdafdsa</b>
+                ffsdfasdfsda</p>
+        </div>
+        <div class="col-sm-4" >
+            <h3>About Me</h3>
+            <p>dsfadfsdafdaffdsafsdsfdafsdafsdafdsa
+                ffsdfasdfsda</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>About Me</h3>
+            <p>dsfadfsdafdaffdsafsdsfdafsdafsdafdsa
+                ffsdfasdfsda</p>
+        </div>
+    </div>
+    
+   
+</html>
