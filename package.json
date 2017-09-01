@@ -1,17 +1,35 @@
 {
-  "name": "project_2",
+  "name": "angular-app",
   "version": "1.0.0",
-  "description": "Angular App",
-  "main": "ang.js",
+  "description": "A simple angular app",
+  "main": "products.js",
   "dependencies": {
-    "grunt": "^1.0.1"
-  },
-  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "http-server": "^0.9.0",
+    "karma": "^1.4.1",
+    "protractor": "^5.1.1",
     "require-dir": "^0.3.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamshikrishnaanandesi/anguar-app.git"
+  },
+  "keywords": [
+    "Angular",
+    "Html",
+    "Css"
+  ],
   "author": "Vamshi Krishna Anandesi",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamshikrishnaanandesi/anguar-app/issues"
+  },
+  "homepage": "https://github.com/vamshikrishnaanandesi/anguar-app#readme"
 }

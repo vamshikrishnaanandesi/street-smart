@@ -1,0 +1,67 @@
+<!doctype html>
+<html ng-app="store">
+<head>
+<title>Smart Street</title>
+<meta charset="utf-8"/>	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="angular.min.js"></script>
+    <!--<script src="bower_components/angular/angular.min.js"></script>-->
+    <script type="text/javascript" src="ang.js"></script>
+    <script type="text/javascript" src="products.js"></script>
+</head>
+<body ng-controller="StoreController as store" style="background-color:  #ffffff" >
+     <!--<header>
+			<nav class="navbar navbar-default">
+			
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">AngularJS</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>-->
+        <div class="container">
+        <div class="jumbotron jumbotron-fluid" style="background-image:url(https://ak3.picdn.net/shutterstock/videos/10122005/thumb/1.jpg)" >
+            <h1 align="center" class="display-3">Smart Street</h1>
+          <h2 align="center">-your dream phone is just a click away-</h2> 
+            <hr style="border: 0;
+                    height: 1px;
+                    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+        </div>
+    
+    <ul class="list-group" > 
+	    <li class="list-group-item" ng-repeat ="product in store.products" style="border: none">
+            <product-title></product-title>
+            <product-images></product-images>
+            <div align="middle">
+                <a href="#" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
+                </a>
+                </div>
+            <product-panel></product-panel>
+        </li>
+    </ul>
+    <div class="row"  align="middle" style="color: #123456">
+        <div class="col-sm-4">
+            <h3 >About</h3>
+            <p>Street smart is an online </br>
+                <b>smart mobile</b>
+                store.</p>
+        </div>
+        <div class="col-sm-4" >
+            <h3>Contact Us</h3>
+            <p><i>vamshikrishnaanandesi@gmail.com</i></p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Careers</h3>
+            <p>Contact me if you are willing to give one.</p>
+        </div>
+    </div>
+    
+   
+</html>

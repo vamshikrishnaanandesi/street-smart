@@ -1,0 +1,35 @@
+[ {
+	"name" : "Samsung Galaxy S8",
+	"price" : 250,
+    "images":[{"full":"images/samsung-galaxy-s8.jpeg"}],
+	"Description":"Explore a world of endless possibilities with the Samsung Galaxy S8. Featuring the innovative Infinity Display, this smartphone offers a smooth, curved surface without sharp angles. With an array of security features, such as the Iris Scanner, Face Recognition and a fingerprint sensor, the Galaxy S8 keeps all your private data safe from unauthorized access. Its 10nm processor, along with 4 GB of RAM, delivers a power-packed performance. The 8 MP front camera and the 12 MP rear camera further add to the Galaxy S8’s appeal.",
+	"color": "Midnight Black",
+ 	"display": 5.5 ,
+ 	"os": "Android Nougat",
+	"canPurchase": true,
+    "reviews": []
+
+            },
+            {
+	"name":"Google Pixel",
+	"price":300,
+    "images":[{"full":"images/google-pixel.jpeg"}],
+	"Description":"The power of Google(TM), at your fingertips. Every touch, every interaction, every moment - made easy.",
+	"color": "Quite Black",
+ 	"display": 5.8 ,
+ 	"os": "Android Nougat",
+	"canPurchase": true,
+    "reviews": []
+    },
+	{
+	"name" : "Essential Phone",
+	"price" : 250,
+    "images":[{"full":"images/Essential-Phone-5.jpg"}],
+	"Description":"The Essential Phone is expertly crafted using titanium and ceramic, has an edge-to-edge Full Display and captures stunning images (even in low light) with the world's thinnest dual camera system ever built for a phone.",
+	"color": "Black Moon",
+ 	"display": 5.8 ,
+ 	"os": "Android Nougat",
+	"canPurchase": true,
+    "reviews": []
+
+            }]

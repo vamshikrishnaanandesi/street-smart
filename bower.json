@@ -1,5 +1,5 @@
 {
-  "name": "project_2",
+  "name": "angular-app",
   "description": "Angular App",
   "main": "ang.js",
   "authors": [
@@ -7,14 +7,8 @@
   ],
   "license": "ISC",
   "homepage": "store.html",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
-    "angular": "^1.6.2"
+    "angular": "^1.6.2",
+    "angular-mocks": "1.5.x"
   }
 }
